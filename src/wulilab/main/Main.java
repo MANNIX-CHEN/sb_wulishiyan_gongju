@@ -8,12 +8,20 @@ public class Main {
         // write your code here
         int number;
         System.out.println("请输入实验编号");
+        System.out.println("0:运行TEST文件");//随便瞎几把乱写测试想要的功能就可以了
         System.out.println("1:实验6-2 非平衡电桥测量。。。。。");
         Scanner scanner = new Scanner( System.in);
         number =scanner.nextInt();
 
         switch (number){
-            case 1: All_labs.lab_6_2();
+            case 0:
+                System.out.print("\n");
+                test.Test();
+                System.out.println("感谢使用！");
+                return ;
+            case 1:
+                System.out.print("\n");
+                All_labs.lab_6_2();
                 System.out.println("感谢使用！");
                 return ;
         }
