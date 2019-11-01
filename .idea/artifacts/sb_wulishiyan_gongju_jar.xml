@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sb_wulishiyan_gongju:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sb_wulishiyan_gongju_jar</output-path>
+    <root id="archive" name="sb_wulishiyan_gongju.jar">
+      <element id="module-output" name="sb_wulishiyan_gongju" />
+    </root>
+  </artifact>
+</component>
